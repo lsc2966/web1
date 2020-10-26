@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body{
+            margin: 0;
+            background-color: black
+        }
+        .img{
+            height:750px;
+            background-color: black;
+            background-image: url(tok.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: blur(0px);
+            transition: 1.5s;
+            
+        }
+        a{
+            text-decoration: none;
+            color: darkslategrey;
+            background-color: azure;
+            position: absolute;
+            left:750px;
+            bottom:350px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: 1s;
+            
+        }
+        a:hover{
+            filter: blur(2px);
+            transition: 1s;
+        }
+        .img:hover{
+            filter: blur(10px);
+            transition: 1.5s;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="img"></div>
+    <a href="">into</a>
+</body>
+</html>
